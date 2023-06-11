@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-import add_0
-add_0.add.a = 1
-add_0.add.b = 2
-val = add_0.add(add_0.add.a,add_0.add.b)
-print("{} + {} = {}".format(add_0.add.a, add_0.add.b, val))
-
+if __name__ == "__main__":
+    import add_0 as ad
+    ad.add.a = 1
+    ad.add.b = 2
+    val = ad.add(ad.add.a, ad.add.b)
+    print("{} + {} = {}".format(ad.add.a, ad.add.b, val))
